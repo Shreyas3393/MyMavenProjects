@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CoverfoxTest.Validate_Coverfoxpages">
+        <methods>
+          <include name="launchbrowsers"/>
+          <include name="ValidateTestPlanFromTextAndBanner"/>
+          <include name="EnterMemberDetails"/>
+          <include name="closingBrowser"/>
+        </methods>
+      </class> <!-- CoverfoxTest.Validate_Coverfoxpages -->
+      <class name="CoverfoxTest.Validate_CoverfoxpagesError">
+        <methods>
+          <include name="pincoderrormsg"/>
+          <include name="closingBrowser"/>
+          <include name="EnterUserDetails"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- CoverfoxTest.Validate_CoverfoxpagesError -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
